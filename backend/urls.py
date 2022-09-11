@@ -18,9 +18,18 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.urls import path, include
 
+from rest_framework import routers
+from shop import views
+
+
+router = routers.DefaultRouter()
+router.register(r'category', views.CategoryViewSet)
+
+
 urlpatterns = [
+    path('', include(router.urls)),
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls')),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     # path('api/products/', include('shop.urls')),
 ]
 
