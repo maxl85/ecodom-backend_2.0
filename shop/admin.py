@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Category
+from .models import Category, Product
 from mptt.admin import DraggableMPTTAdmin
 
 
@@ -15,6 +15,17 @@ admin.site.register(
     ),
 )
 
+# admin.site.register(Product)
+from flat_json_widget.widgets import FlatJsonWidget
+from django.db.models import JSONField
+
+
+class JsonAdmin(admin.ModelAdmin):
+  formfield_overrides = {
+    JSONField: {'widget': FlatJsonWidget }
+  }
+
+admin.site.register(Product, JsonAdmin)
 
 
 # https://tretyakov.net/post/drevovidnye-kategorii-v-django/

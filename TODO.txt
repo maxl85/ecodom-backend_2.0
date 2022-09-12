@@ -6,4 +6,14 @@ https://www.youtube.com/playlist?list=PLF-NY6ldwAWqSxUpnTBObEP21cFQxNJ7C
 
 
 djangorestframework-recursive взято отсюда
+Другой вариант реализации рекурсивный вывод вложенных записей
+https://www.youtube.com/watch?v=Jh5pKg1Ad6Q&list=PLF-NY6ldwAWqSxUpnTBObEP21cFQxNJ7C&index=6
 https://www.youtube.com/watch?v=S0b27PrUdnw
+
+
+Идеи для Product
+https://ru.stackoverflow.com/questions/1222063/%D0%9A%D0%B0%D0%BA-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D1%8F%D1%82%D1%8C-%D1%85%D0%B0%D1%80%D0%B0%D0%BA%D1%82%D0%B5%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-json-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%B0%D0%B6%D0%B4%D0%BE%D0%B9-%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8
+
+
+JSON in Django Admin
+https://github.com/openwisp/django-flat-json-widget

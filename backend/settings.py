@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'mptt',
     'django_mptt_admin',
+    'flat_json_widget',
 
     'shop.apps.ShopConfig',
 ]
